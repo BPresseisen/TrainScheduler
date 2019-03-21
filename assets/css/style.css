@@ -1,0 +1,14 @@
+#imgPeg1{
+    float:left;
+    display: inline-block;
+}
+
+#imgPeg2{
+
+    float:right;
+}
+
+.container{
+
+    overflow:auto;
+}
