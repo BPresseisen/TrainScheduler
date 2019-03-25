@@ -81,11 +81,12 @@ $(document).ready(function () {
     // form empty method??
     //$(".form-group")
     
+    resetAllValues();
     });
     
-    // resetAllValues();
+   
 
-    $("train-name").val()="";
+    // $("train-name").val()="";
     // $("destination").val()="";
     // $("firstTrain-time").val()="";
     // $("frequency").val()="";
@@ -94,5 +95,5 @@ $(document).ready(function () {
 
 function resetAllValues() {
     // $('.fetch_results').find('input:text').val('');
-    // $('.fetch_results').find('text').val('');
+    $('.fetch_results').val('');
   }
