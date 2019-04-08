@@ -4,12 +4,6 @@ The Pegasus Train Scheduler in name and scope draws its inspiration from the Gre
 
 In this application, Pegasus likeness is used strictly for tbe aesthetic and creative narrative. 
 
-Truth be told, The Pegasus Train Scheduler is an application that addresses the problem of how to creating a scheduling tool that gives users the ability to schedule events in a NoSQL cloud database. 
-
-In Pegasus, train schedules are the event and are stored and synced to a Firebase database. Data is synced across all clients in realtime, and remains available when the app goes offline. Data is stored as JSON and synchronized in realtime to every connected client.
-
-Additionally, the  
-
 Future development plans include the following mods:
 
 (1) greater mobile responsiveness
@@ -19,6 +13,16 @@ Future development plans include the following mods:
 
 Here is the deployed link:
 
-https://bpresseisen.github.io/Word_Guess_Game/
+https://bpresseisen.github.io/TrainScheduler/
 
-ABOUT THE DESIGN
+ABOUT THE DESIGN:
+
+Truth be told, The Pegasus Train Scheduler is an application that addresses the problem of how to creating a scheduling tool that gives users the ability to schedule events in a NoSQL cloud database. 
+
+In Pegasus, train schedules are the event and are stored and synced to a Firebase database. 
+
+Data is synced across all clients in realtime, and remains available when the app goes offline. Data is stored as JSON and synchronized in realtime to every connected client.
+
+Additionally, The Pegasus Train Scheduler calculates the next train to arrive and coundtdown clock based on a first train to depart, which is declared by the user-input. This calculation is entirely possible given the use of moment.js
+
+moment.is a free and open source JavaScript library that removes the need to use the native JavaScript Date object directly. The library is a wrapper for the Date object (in the same way that jQuery is a wrapper for JavaScript) making the object a whole lot easier to work with.
